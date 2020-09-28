@@ -1,12 +1,13 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const Router = express.Router();
-//const productRoutes = require("./api/routes/products");
+const productRoutes = require("./api/routes/products");
+
 const app = express();
 
 app.use(bodyParser.json());
 
-//app.use("/products",productRoutes);
+app.use("/products",productRoutes);
 
 Router.get('/', function(req, res) {
     res.json({ message: 'API is Online!' });   
