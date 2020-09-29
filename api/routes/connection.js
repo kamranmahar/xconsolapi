@@ -5,8 +5,8 @@ var mySqlConnection = mysql.createConnection({
     port: "3306",
     user :"root",
     password : "Kamran@1234",
-    database : "trango",
-    connect_timeout=1000
+    database : "trango"
+   
 });
 
 mySqlConnection.connect((err) => {
