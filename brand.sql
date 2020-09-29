@@ -4,4 +4,4 @@ CREATE TABLE `Brands` (
   `Description` varchar(500) NOT NULL,
   `Slug` varchar(250) NOT NULL,
   `Thumbnail` varchar(250) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) 
