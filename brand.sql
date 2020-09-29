@@ -1,10 +1,10 @@
 CREATE TABLE `Brands` (
   `ID` int NOT NULL,
   `Name` varchar(250) NOT NULL,
-  `Description` varchar(500) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `Description` varchar(500),
   `Slug` varchar(250) NOT NULL,
-  `Thumbnail` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `Thumbnail` varchar(250)DEFAULT NULL
+) ;
 
 --
 -- Dumping data for table `Brands`
